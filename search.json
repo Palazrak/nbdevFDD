@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "administrador.html",
+    "href": "administrador.html",
+    "title": "Administrador",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "administrador.html#pruebas-de-la-clase-administrador",
+    "href": "administrador.html#pruebas-de-la-clase-administrador",
+    "title": "Administrador",
+    "section": "Pruebas de la clase Administrador",
+    "text": "Pruebas de la clase Administrador\nPara crear un administrador de tareas:\n\nadministrador = Administrador()\n\nAhora, agreguemos algunas tareas:\n\nadministrador.agrega_tarea(titulo=\"Presentación FDD\", fecha_entrega=\"25/11/2023\", descripcion=\"Presentación con código del proyecto\")\nadministrador.agrega_tarea(titulo=\"GitHub Pages\", fecha_entrega=\"14/12/2023\", descripcion=\"Presentación de nuestro GitHub Pages para el final\")\nadministrador.agrega_tarea(titulo=\"Tareas de proyectos\", fecha_entrega=\"09/12/2023\", descripcion=\"Entrega de tareas a los equipos\")\n\nImprimimos la lista para ver los elementos:\n\nadministrador.imprime_completo()\n\nTarea: Presentación FDD. \nDescripcion: Presentación con código del proyecto. \nFecha de entrega: 25/11/2023. \nCompletada: False\nTarea: Tareas de proyectos. \nDescripcion: Entrega de tareas a los equipos. \nFecha de entrega: 09/12/2023. \nCompletada: False\nTarea: GitHub Pages. \nDescripcion: Presentación de nuestro GitHub Pages para el final. \nFecha de entrega: 14/12/2023. \nCompletada: False\n\n\nAhora, marquemos una tarea como completada:\n\nadministrador.tarea_completada(\"Presentación FDD\")\n\nTrue\n\n\nProbemos imprimir tanto la lista completa como la lista de faltantes:\n\nadministrador.imprime_completo()\n\nTarea: Presentación FDD. \nDescripcion: Presentación con código del proyecto. \nFecha de entrega: 25/11/2023. \nCompletada: True\nTarea: Tareas de proyectos. \nDescripcion: Entrega de tareas a los equipos. \nFecha de entrega: 09/12/2023. \nCompletada: False\nTarea: GitHub Pages. \nDescripcion: Presentación de nuestro GitHub Pages para el final. \nFecha de entrega: 14/12/2023. \nCompletada: False\n\n\n\nadministrador.imprime_faltantes()\n\nTarea: Tareas de proyectos. \nDescripcion: Entrega de tareas a los equipos. \nFecha de entrega: 09/12/2023. \nCompletada: False\nTarea: GitHub Pages. \nDescripcion: Presentación de nuestro GitHub Pages para el final. \nFecha de entrega: 14/12/2023. \nCompletada: False\n\n\nAhora, probemos marcar como completado una tarea que no existe:\n\nadministrador.tarea_completada(\"prueba\")\n\nFalse"
+  },
+  {
+    "objectID": "tarea.html",
+    "href": "tarea.html",
+    "title": "Tarea",
+    "section": "",
+    "text": "source\n\nTarea\n\n Tarea (titulo:str, fecha_entrega:str, descripcion:str='')\n\nObjeto que contiene un título, una descripción, un estado (completado o no completado)\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\ntitulo\nstr\n\nTitulo de la tarea\n\n\nfecha_entrega\nstr\n\nFecha de entrega en formato dd/mm/aaaa\n\n\ndescripcion\nstr\n\nInformacion adicional sobre la tarea\n\n\nReturns\nNone\n\n\n\n\n\nPrueba de crear una Tarea\n\ntarea1 = Tarea(titulo=\"Presentacion\", fecha_entrega=\"25/11/2023\")"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdevFDD",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdevFDD",
+    "section": "Install",
+    "text": "Install\npip install nbdevFDD"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdevFDD",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  }
+]
