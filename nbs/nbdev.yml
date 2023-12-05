@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdevFDD"
+  site-url: "https://Palazrak.github.io/nbdevFDD"
+  description: "Prueba para la clase FDD"
+  repo-branch: main
+  repo-url: "https://github.com/Palazrak/nbdevFDD"
